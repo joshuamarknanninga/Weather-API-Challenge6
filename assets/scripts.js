@@ -36,7 +36,7 @@ function displayForecast(data) {
         forecastElement.classList.add('forecast-day', 'bg-blue-600', 'text-white', 'p-4', 'm-2', 'rounded', 'flex-1', 'text-center');
         forecastElement.innerHTML = `
             <h3 class="text-lg font-semibold">${new Date(forecastDay.dt_txt).toLocaleDateString()}</h3>
-            <p><img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" alt="${forecastDay.weather[0].description}" class="mx-auto"></p>
+            <p><img src="https://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" alt="${forecastDay.weather[0].description}" class="mx-auto"></p>
             <p>Temp: ${forecastDay.main.temp}°F</p>
             <p>Wind: ${forecastDay.wind.speed} MPH</p>
             <p>Humidity: ${forecastDay.main.humidity} %</p>
