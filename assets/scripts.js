@@ -9,12 +9,12 @@ document.getElementById('searchButton').addEventListener('click', () => {
 });
 
 function fetchWeatherData(city) {
-    const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+    const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=54f49b7f1d8f2cc3907a8ace3e736db7&units=imperial`;
     fetch(currentWeatherUrl)
         .then(response => response.json())
         .then(data => displayCurrentWeather(data));
 
-    const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=imperial`;
+    const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=54f49b7f1d8f2cc3907a8ace3e736db7&units=imperial`;
     fetch(forecastUrl)
         .then(response => response.json())
         .then(data => displayForecast(data));
