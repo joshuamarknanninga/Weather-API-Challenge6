@@ -19,7 +19,7 @@ Weather API Dashboard is a powerful and user-friendly application designed to fe
 ## Features
 - Fetches and displays real-time weather data.
 - Supports multiple weather service providers.
-- User-friendly and responsive interface.
+- User-friendly and responsive interface..
 
 ## Screenshots
 ![Dashboard Screenshot](/assets/weather.png)
