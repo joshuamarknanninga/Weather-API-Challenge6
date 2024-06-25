@@ -64,6 +64,6 @@ function displayHistory() {
         historyList.appendChild(listItem);
     });
 }
-
+// this is a commment
 // Initial display of search history on page load
 document.addEventListener('DOMContentLoaded', displayHistory);
